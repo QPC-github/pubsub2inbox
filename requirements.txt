@@ -638,9 +638,9 @@ markupsafe==2.0.1 \
     # via
     #   -r requirements.txt.in
     #   jinja2
-msal==1.20.0 \
-    --hash=sha256:78344cd4c91d6134a593b5e3e45541e666e37b747ff8a6316c3668dd1e6ab6b2 \
-    --hash=sha256:d2f1c26368ecdc28c8657d457352faa0b81b1845a7b889d8676787721ba86792
+msal==1.28.0 \
+    --hash=sha256:3064f80221a21cd535ad8c3fafbb3a3582cd9c7e9af0bb789ae14f726a0ca99b \
+    --hash=sha256:80bbabe34567cb734efd2ec1869b2d98195c927455369d8077b3c542088c5c9d
     # via -r requirements.txt.in
 mypy-extensions==0.4.3 \
     --hash=sha256:090fedd75945a69ae91ce1303b5824f428daf5a028d2f6ab8a299250a846f15d \
@@ -748,6 +748,7 @@ pyjwt[crypto]==2.6.0 \
     --hash=sha256:d83c3d892a77bbb74d3e1a2cfa90afaadb60945205d1095d9221f04466f64c14
     # via
     #   msal
+    #   pyjwt
     #   twilio
 pyparsing==3.0.9 \
     --hash=sha256:2b020ecf7d21b687f219b71ecad3631f644a47f01403fa1d1036b0c6416d70fb \
